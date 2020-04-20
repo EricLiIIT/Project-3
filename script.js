@@ -1,9 +1,9 @@
 function initMap() {
-    // The location of Uluru
-    var uluru = { lat: -25.344, lng: 131.036 };
-    // The map, centered at Uluru
+    // The location of Bourg-Saint-Maurice, France
+    var bsg = { lat: 45.572240, lng: 6.829647 };
+    // The map, centered at Bourg-Saint-Maurice
     var map = new google.maps.Map(
-        document.getElementById('maps'), { zoom: 4, center: uluru });
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({ position: uluru, map: map });
+        document.getElementById('maps'), { zoom: 4, center: bsg });
+    // The marker, positioned at Bourg-Saint-Maurice
+    var marker = new google.maps.Marker({ position: bsg, map: map });
 }
