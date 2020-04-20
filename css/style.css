@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*Style elements for navigation bar*/
+
+.navigation {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.5em;
+    padding: 10px;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    width: 100%;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+}
+
+.navigation div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Style elements for all pages*/
+
+h1 {
+    font-family: Montserrat;
+    text-align: center;
+    color: #3C23DC;
+    font-size: 2em;
+}
+
+h2 {
+    color: #2DC524;
+    font-size: 1.8;
+}
+
+h3 {
+    color: #C52453;
+    font-size: 1.6;
+}
+
+h4 {
+    color: #888E2D;
+    font-size: 1.4;
+}
+
+body {
+    background-color: #BAC1C3;
+    font-size: 1.5em;
+}
+
+
+/*Page 1 Style elements*/
+
+
+/*fixed page*/
+
+h5 {
+    color: #3053EB;
+}
+
+#Headshot {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    font-family: Sans-Serif;
+    position: relative;
+}
+
+#workexp {
+    float: none;
+    font-family: Georgia;
+}
+
+#education {
+    float: none;
+    font-family: Georgia;
+}
+
+#skills {
+    float: none;
+    font-family: Georgia;
+}
+
+#activities {
+    float: none;
+    font-family: Georgia;
+}
+
+#fixed {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*Page 2 Style elements*/
+
+#text1 {
+    text-align: center;
+}
+
+#text2 {
+    text-align: center;
+}
+
+#text3 {
+    text-align: center;
+}
+
+#text4 {
+    text-align: center;
+}
+
+#anticruelty {
+    display: flex;
+    justify-content: center;
+}
+
+#lottie1 {
+    display: flex;
+    justify-content: center;
+}
+
+#lottie2 {
+    display: flex;
+    justify-content: center;
+}
+
+#lottie3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Page 3 Style elements*/
+
+
+/*fluid page*/
+
+#theFrame {
+    font-family: Montserrat;
+}
+
+#drivetrain {
+    font-family: Montserrat;
+}
+
+#wheels {
+    font-family: Montserrat;
+}
+
+.video {
+    height: 40%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*units for fluid page*/
+
+#fluid {
+    height: 100%;
+    width: 100%;
+}
