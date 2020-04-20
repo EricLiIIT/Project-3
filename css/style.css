@@ -56,6 +56,8 @@ h4 {
 body {
     background-color: #BAC1C3;
     font-size: 1.5em;
+    /*text align to center map*/
+    text-align: center;
 }
 
 
@@ -177,5 +179,13 @@ a {
 
 #fluid {
     height: 100%;
+    width: 100%;
+}
+
+
+/*Maps*/
+
+#map {
+    height: 600px;
     width: 100%;
 }
