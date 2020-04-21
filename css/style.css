@@ -246,16 +246,19 @@ a {
         font-size: 1.5em;
     }
     #santacruz img {
-        width: 50%;
+        width: 100%;
     }
     #pinarello img {
-        width: 500px;
+        width: 100%;
     }
     #bmc img {
-        width: 500px;
+        width: 100%;
     }
     #canyon img {
-        width: 500px;
+        width: 100%;
+    }
+    #dots {
+        text-align: center;
     }
 }
 
@@ -334,7 +337,7 @@ a {
 /* Number text (1/3 etc) */
 
 .numbertext {
-    color: #f2f2f2;
+    color: black;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
