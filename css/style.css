@@ -219,7 +219,7 @@ a {
 }
 
 
-/*media query for phone*/
+/*media query for desktop*/
 
 @media screen and (min-width: 992px) {
     #email {
@@ -245,6 +245,18 @@ a {
         background-color: #ffd883;
         font-size: 1.5em;
     }
+    #santacruz img {
+        width: 50%;
+    }
+    #pinarello img {
+        width: 500px;
+    }
+    #bmc img {
+        width: 500px;
+    }
+    #canyon img {
+        width: 500px;
+    }
 }
 
 
@@ -266,7 +278,7 @@ a {
 
 /* Hide the images by default */
 
-.mySlides {
+#mySlides {
     display: none;
 }
 
