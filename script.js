@@ -1,12 +1,12 @@
 function initMap() {
     // The location of Bourg-Saint-Maurice, France
     var bsg = { lat: 45.572240, lng: 6.829647 };
+
     // The map, centered at Bourg-Saint-Maurice
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 12,
         center: bsg,
-    });
-    /*styles: [
+        styles: [
             { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
@@ -63,7 +63,7 @@ function initMap() {
             {
                 featureType: 'transit',
                 elementType: 'geometry',
-                stylers: [{ color: '#2f3948' }]
+                stylers: [{ color: '#a1a11d' }]
             },
             {
                 featureType: 'transit.station',
@@ -86,16 +86,16 @@ function initMap() {
                 stylers: [{ color: '#17263c' }]
             }
         ]
-    });*/
-    // Adds a bicycling layer to the map; Le Tour de France passes through Bourg-Saint-Maurice and many cyclists ride here on vacation
-    var bikeLayer = new google.maps.BicyclingLayer();
-    bikeLayer.setMap(map);
+    });
 
+    // Adds a transit layer to the map; shown in yellow
     var transitLayer = new google.maps.TransitLayer();
     transitLayer.setMap(map);
 
-    //var trafficLayer = new google.maps.TrafficLayer();
-    //trafficLayer.setMap(map);
+    // Adds a traffic layer to the map
+    var trafficLayer = new google.maps.TrafficLayer();
+    trafficLayer.setMap(map);
+
     // The marker, positioned at Bourg-Saint-Maurice
     var marker = new google.maps.Marker({ position: bsg, map: map });
 }
