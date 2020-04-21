@@ -72,8 +72,6 @@ h5 {
     display: flex;
     justify-content: center;
     position: relative;
-    height: auto;
-    width: 100%;
 }
 
 #email {
@@ -199,9 +197,14 @@ a {
         position: relative;
         font-size: 20px;
     }
-    #Headshot {
-        display: flex;
-        justify-content: center;
-        position: relative;
+    h3 {
+        color: #45ff01;
+        font-size: 1.8;
+    }
+    h4 {
+        color: #888E2D;
+        font-size: 1.5;
     }
 }
+
+@media screen and (min-width: 600px) {}
