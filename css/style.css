@@ -189,6 +189,38 @@ a {
     width: 100%;
 }
 
+
+/*media query for tablet*/
+
+@media screen and (min-width: 600px) {
+    #email {
+        display: flex;
+        justify-content: center;
+        font-family: Sans-Serif;
+        position: relative;
+        font-size: 36px;
+    }
+    h3 {
+        color: #45ff01;
+        font-size: 2.5;
+    }
+    h4 {
+        color: #888E2D;
+        font-size: 2.0;
+    }
+    h5 {
+        color: #3053EB;
+        font-size: 1.8;
+    }
+    body {
+        background-color: #ffacd1;
+        font-size: 1.5em;
+    }
+}
+
+
+/*media query for phone*/
+
 @media screen and (min-width: 992px) {
     #email {
         display: flex;
@@ -205,6 +237,12 @@ a {
         color: #888E2D;
         font-size: 1.5;
     }
+    h5 {
+        color: #3053EB;
+        font-size: 1.3;
+    }
+    body {
+        background-color: #ffd883;
+        font-size: 1.5em;
+    }
 }
-
-@media screen and (min-width: 600px) {}
